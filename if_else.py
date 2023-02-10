@@ -49,4 +49,5 @@ words = ['cat', 'window', 'computer', 'Chair', 'Chocolate']
 for word in range(len(words)):
     print(word, words[word])
 
-    
+for index, word in enumerate(words):
+    print(index, word)
