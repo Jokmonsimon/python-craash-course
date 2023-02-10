@@ -46,5 +46,7 @@ words = ['cat', 'window', 'computer', 'Chair', 'Chocolate']
 # for i in range(5, 15, 5):
 #     print(i)
 
+for word in range(len(words)):
+    print(word, words[word])
 
     
